@@ -1,0 +1,9 @@
+[submodule "flight-software/Apollo-11"]
+	path = flight-software/Apollo-11
+	url = https://github.com/chrislgarry/Apollo-11.git
+[submodule "tools/virtualagc"]
+	path = tools/virtualagc
+	url = https://github.com/virtualagc/virtualagc.git
+[submodule "tools/webAGC"]
+	path = tools/webAGC
+	url = https://github.com/michaelfranzl/webAGC.git

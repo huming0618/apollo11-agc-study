@@ -1,0 +1,45 @@
+NOTICE — apollo11-agc-study
+==========================
+
+This repository is a study / convenience workspace that aggregates guides and
+pointers to upstream Apollo Guidance Computer (AGC) materials.
+
+What this repo claims
+---------------------
+- Documentation under docs/ and the top-level README.md were written for this
+  repository (apollo11-agc-study). They are study notes, not NASA or MIT
+  publications.
+
+What this repo does NOT claim
+-----------------------------
+- Ownership of NASA / MIT Instrumentation Laboratory Apollo flight software.
+- Ownership of Virtual AGC tools, webAGC, or other upstream projects.
+
+Upstream flight software (Public Domain)
+----------------------------------------
+- Source tree via submodule: flight-software/Apollo-11
+  Upstream: https://github.com/chrislgarry/Apollo-11
+  Marked Public Domain Mark 1.0 (see that repo's LICENSE.md).
+- Digitized from MIT Museum printouts; transcription work associated with the
+  Virtual AGC project (http://www.ibiblio.org/apollo/).
+- Corresponding AGC sources also appear inside tools/virtualagc (e.g.
+  Comanche055/, Luminary099/) and are likewise treated as public domain by
+  upstream.
+
+Upstream tools (GPL and other)
+------------------------------
+- tools/virtualagc — https://github.com/virtualagc/virtualagc
+  Bulk of Virtual AGC PC software: GNU GPL version 2 or later (see COPYING /
+  LICENSE.txt in that tree). Flight AGC/AGS software therein: public domain.
+  Some portions may use less-restrictive licenses; see individual files.
+- tools/webAGC — https://github.com/michaelfranzl/webAGC
+  See that repository's LICENSE for terms of the browser emulator / demo.
+
+Submodules
+----------
+Flight software and tools are included as git submodules so licensing and
+attribution remain with upstream. Prefer cloning with:
+
+  git clone --recurse-submodules https://github.com/huming0618/apollo11-agc-study.git
+
+Do not treat this study repo as a re-license or re-publication of NASA/MIT code.
