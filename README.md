@@ -11,7 +11,7 @@
 | [`flight-software/Apollo-11`](flight-software/Apollo-11) | 阿波罗 11 飞行软件转写（**Luminary099** 登月舱 + **Comanche055** 指令舱） |
 | [`tools/virtualagc`](tools/virtualagc) | Virtual AGC：汇编器、仿真器、Docker 等完整工具链 |
 | [`tools/webAGC`](tools/webAGC) | 浏览器端 Wasm AGC + DSKY 演示 |
-| [`docs/`](docs/) | 中文资料清单、中/英文运行指南 |
+| [`docs/`](docs/) | 中文阅读地图、模块表、精读入口；资料清单与中/英文运行指南 |
 
 ## 快速链接
 
@@ -22,9 +22,27 @@
   - Virtual AGC：[`tools/virtualagc`](tools/virtualagc)
   - webAGC：[`tools/webAGC`](tools/webAGC)
 - **文档**
+  - 阅读地图（中文导读入口）：[`docs/reading-map-zh.md`](docs/reading-map-zh.md)
   - 资料清单（中文）：[`docs/sources-zh.md`](docs/sources-zh.md)
   - 运行指南（中文）：[`docs/howto-zh.md`](docs/howto-zh.md)
   - 运行指南（英文）：[`docs/howto-en.md`](docs/howto-en.md)
+
+## 中文注释与导读入口
+
+本仓库新增的中文导读**不修改**上游 submodule 内 `.agc`，只提供指向 `docs/` 与 `flight-software/Apollo-11/...` 的阅读入口。
+
+| 文档 | 说明 |
+|------|------|
+| [`docs/reading-map-zh.md`](docs/reading-map-zh.md) | 阅读地图：入门 → OS → 着陆 → CM |
+| [`docs/modules/luminary099-zh.md`](docs/modules/luminary099-zh.md) | Luminary099（LM）模块表 |
+| [`docs/modules/comanche055-zh.md`](docs/modules/comanche055-zh.md) | Comanche055（CM）模块表 |
+| [`docs/walkthroughs/executive-zh.md`](docs/walkthroughs/executive-zh.md) | Executive 精读入口 |
+| [`docs/walkthroughs/landing-zh.md`](docs/walkthroughs/landing-zh.md) | 着陆精读入口 |
+| [`docs/walkthroughs/dsky-pinball-zh.md`](docs/walkthroughs/dsky-pinball-zh.md) | DSKY / Pinball 入口 |
+| [`docs/sources-zh.md`](docs/sources-zh.md) | 资料与版本清单 |
+| [`docs/howto-zh.md`](docs/howto-zh.md) | 运行指南（中文） |
+
+建议从 [`docs/reading-map-zh.md`](docs/reading-map-zh.md) 开始。
 
 ## 快速开始
 
@@ -35,7 +53,7 @@
 
 2. **本地 / Docker**：见 [`docs/howto-zh.md`](docs/howto-zh.md)（webAGC 本地、Docker VirtualAGC、原生 `make` 摘要）。
 
-3. **读源码**：从 [`docs/sources-zh.md`](docs/sources-zh.md) 的「建议先读文件」开始。
+3. **读源码**：从 [`docs/reading-map-zh.md`](docs/reading-map-zh.md) 进入；资料清单见 [`docs/sources-zh.md`](docs/sources-zh.md)。
 
 ## 带 submodule 克隆
 
