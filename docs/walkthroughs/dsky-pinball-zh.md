@@ -10,19 +10,19 @@
 
 | 顺序 | 内容 | 相对路径 | GitHub |
 |------|------|----------|--------|
-| 1 | Pinball 主程序 | `flight-software/Apollo-11/Luminary099/PINBALL_GAME_BUTTONS_AND_LIGHTS.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/PINBALL_GAME_BUTTONS_AND_LIGHTS.agc |
-| 2 | Noun 表 | `flight-software/Apollo-11/Luminary099/PINBALL_NOUN_TABLES.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/PINBALL_NOUN_TABLES.agc |
-| 3 | 扩展动词 | `flight-software/Apollo-11/Luminary099/EXTENDED_VERBS.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/EXTENDED_VERBS.agc |
-| 4 | 键盘/上行中断 | `flight-software/Apollo-11/Luminary099/KEYRUPT_UPRUPT.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/KEYRUPT_UPRUPT.agc |
-| 5 | 程序侧显示接口 | `flight-software/Apollo-11/Luminary099/DISPLAY_INTERFACE_ROUTINES.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/DISPLAY_INTERFACE_ROUTINES.agc |
-| 6 | Verb/Noun 清单入口 | `flight-software/Apollo-11/Luminary099/ASSEMBLY_AND_OPERATION_INFORMATION.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/ASSEMBLY_AND_OPERATION_INFORMATION.agc |
+| 1 | Pinball 主程序 | `flight-software/Apollo-11/Luminary099/PINBALL_GAME_BUTTONS_AND_LIGHTS.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/PINBALL_GAME_BUTTONS_AND_LIGHTS.agc |
+| 2 | Noun 表 | `flight-software/Apollo-11/Luminary099/PINBALL_NOUN_TABLES.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/PINBALL_NOUN_TABLES.agc |
+| 3 | 扩展动词 | `flight-software/Apollo-11/Luminary099/EXTENDED_VERBS.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/EXTENDED_VERBS.agc |
+| 4 | 键盘/上行中断 | `flight-software/Apollo-11/Luminary099/KEYRUPT_UPRUPT.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/KEYRUPT_UPRUPT.agc |
+| 5 | 程序侧显示接口 | `flight-software/Apollo-11/Luminary099/DISPLAY_INTERFACE_ROUTINES.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/DISPLAY_INTERFACE_ROUTINES.agc |
+| 6 | Verb/Noun 清单入口 | `flight-software/Apollo-11/Luminary099/ASSEMBLY_AND_OPERATION_INFORMATION.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/ASSEMBLY_AND_OPERATION_INFORMATION.agc |
 
 CM 对照（同名或平行文件）：
 
 - `flight-software/Apollo-11/Comanche055/PINBALL_GAME_BUTTONS_AND_LIGHTS.agc`
 - `flight-software/Apollo-11/Comanche055/PINBALL_NOUN_TABLES.agc`
 - `flight-software/Apollo-11/Comanche055/EXTENDED_VERBS.agc`
-- https://github.com/huming0618/apollo11-agc-study/tree/main/flight-software/Apollo-11/Comanche055
+- https://github.com/chrislgarry/Apollo-11/tree/911e5c0283c629c50cb97666f34065e8c07d71a5/Comanche055
 
 上手按键示例见 [`../howto-zh.md`](../howto-zh.md)（如灯测、监视运行时间）；**不要**在未核实来源时发明 Verb 序列。
 

@@ -7,11 +7,11 @@
 ## 先读什么
 
 1. 本页（建立词汇：job / VAC / priority）。
-2. 源码：[`flight-software/Apollo-11/Luminary099/EXECUTIVE.agc`](../../flight-software/Apollo-11/Luminary099/EXECUTIVE.agc)  
-   GitHub：https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/EXECUTIVE.agc
-3. 紧接着：同目录 [`WAITLIST.agc`](../../flight-software/Apollo-11/Luminary099/WAITLIST.agc)（定时短任务）与 [`FRESH_START_AND_RESTART.agc`](../../flight-software/Apollo-11/Luminary099/FRESH_START_AND_RESTART.agc)（谁在开机时把系统拉起来）。
-4. 需要查 RAM 符号时：[`ERASABLE_ASSIGNMENTS.agc`](../../flight-software/Apollo-11/Luminary099/ERASABLE_ASSIGNMENTS.agc)。
-5. CM 对照：[`flight-software/Apollo-11/Comanche055/EXECUTIVE.agc`](../../flight-software/Apollo-11/Comanche055/EXECUTIVE.agc)。
+2. 源码：[`flight-software/Apollo-11/Luminary099/EXECUTIVE.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/EXECUTIVE.agc)  
+   GitHub：https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/EXECUTIVE.agc
+3. 紧接着：同目录 [`WAITLIST.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/WAITLIST.agc)（定时短任务）与 [`FRESH_START_AND_RESTART.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/FRESH_START_AND_RESTART.agc)（谁在开机时把系统拉起来）。
+4. 需要查 RAM 符号时：[`ERASABLE_ASSIGNMENTS.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/ERASABLE_ASSIGNMENTS.agc)。
+5. CM 对照：[`flight-software/Apollo-11/Comanche055/EXECUTIVE.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Comanche055/EXECUTIVE.agc)。
 
 模块总表：[`../modules/luminary099-zh.md`](../modules/luminary099-zh.md)。阅读地图：[`../reading-map-zh.md`](../reading-map-zh.md)。
 

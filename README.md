@@ -8,19 +8,21 @@
 
 | 路径 | 内容 |
 |------|------|
-| [`flight-software/Apollo-11`](flight-software/Apollo-11) | 阿波罗 11 飞行软件转写（**Luminary099** 登月舱 + **Comanche055** 指令舱） |
-| [`tools/virtualagc`](tools/virtualagc) | Virtual AGC：汇编器、仿真器、Docker 等完整工具链 |
-| [`tools/webAGC`](tools/webAGC) | 浏览器端 Wasm AGC + DSKY 演示 |
+| [`flight-software/Apollo-11`](https://github.com/chrislgarry/Apollo-11/tree/911e5c0283c629c50cb97666f34065e8c07d71a5) | 阿波罗 11 飞行软件转写（**Luminary099** 登月舱 + **Comanche055** 指令舱） |
+| [`tools/virtualagc`](https://github.com/virtualagc/virtualagc/tree/659aa9db74d7a42940de5b755c4ec8f546009e00) | Virtual AGC：汇编器、仿真器、Docker 等完整工具链 |
+| [`tools/webAGC`](https://github.com/michaelfranzl/webAGC/tree/0575ea7a1231e3948bae7d2c22a6ac146da0c38d) | 浏览器端 Wasm AGC + DSKY 演示 |
 | [`docs/`](docs/) | 中文阅读地图、模块表、精读入口；资料清单与中/英文运行指南 |
 
 ## 快速链接
 
+> **说明：** GitHub 网页无法直接打开本仓库里 submodule 内部路径（会 404）。上面的飞行软件 / 工具链接已指向对应上游仓库的固定提交；本地请用 `git clone --recurse-submodules` 查看 `flight-software/` 与 `tools/`。
+
 - **飞行软件（推荐从这里读）**
-  - 登月舱 LM：[`flight-software/Apollo-11/Luminary099`](flight-software/Apollo-11/Luminary099)（Luminary 1A / LMY99）
-  - 指令舱 CM：[`flight-software/Apollo-11/Comanche055`](flight-software/Apollo-11/Comanche055)（Colossus 2A / Comanche 055）
+  - 登月舱 LM：[`Luminary099`](https://github.com/chrislgarry/Apollo-11/tree/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099)（Luminary 1A / LMY99）
+  - 指令舱 CM：[`Comanche055`](https://github.com/chrislgarry/Apollo-11/tree/911e5c0283c629c50cb97666f34065e8c07d71a5/Comanche055)（Colossus 2A / Comanche 055）
 - **工具**
-  - Virtual AGC：[`tools/virtualagc`](tools/virtualagc)
-  - webAGC：[`tools/webAGC`](tools/webAGC)
+  - Virtual AGC：[`tools/virtualagc`](https://github.com/virtualagc/virtualagc/tree/659aa9db74d7a42940de5b755c4ec8f546009e00)
+  - webAGC：[`tools/webAGC`](https://github.com/michaelfranzl/webAGC/tree/0575ea7a1231e3948bae7d2c22a6ac146da0c38d)
 - **文档**
   - 阅读地图（中文导读入口）：[`docs/reading-map-zh.md`](docs/reading-map-zh.md)
   - 资料清单（中文）：[`docs/sources-zh.md`](docs/sources-zh.md)

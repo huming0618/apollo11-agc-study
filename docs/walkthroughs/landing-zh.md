@@ -10,18 +10,18 @@
 
 | 步 | 文件 | 相对路径 | GitHub |
 |----|------|----------|--------|
-| 1 | 着陆编排 | `flight-software/Apollo-11/Luminary099/THE_LUNAR_LANDING.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/THE_LUNAR_LANDING.agc |
-| 2 | 制导方程 | `flight-software/Apollo-11/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc |
-| 3 | 油门 | `flight-software/Apollo-11/Luminary099/THROTTLE_CONTROL_ROUTINES.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/THROTTLE_CONTROL_ROUTINES.agc |
-| 4 | 中止 P70/P71 | `flight-software/Apollo-11/Luminary099/P70-P71.agc` | https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/P70-P71.agc |
+| 1 | 着陆编排 | `flight-software/Apollo-11/Luminary099/THE_LUNAR_LANDING.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/THE_LUNAR_LANDING.agc |
+| 2 | 制导方程 | `flight-software/Apollo-11/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc |
+| 3 | 油门 | `flight-software/Apollo-11/Luminary099/THROTTLE_CONTROL_ROUTINES.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/THROTTLE_CONTROL_ROUTINES.agc |
+| 4 | 中止 P70/P71 | `flight-software/Apollo-11/Luminary099/P70-P71.agc` | https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/P70-P71.agc |
 
 强烈建议同时打开的支撑文件：
 
-- [`SERVICER.agc`](../../flight-software/Apollo-11/Luminary099/SERVICER.agc) — 导航/服务循环，着陆过程中持续更新状态  
-- [`BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc`](../../flight-software/Apollo-11/Luminary099/BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc) — 主点火编排（`THE_LUNAR_LANDING` 里会为 Burn Baby Burn 准备 `WHICH` 等）  
-- [`FINDCDUW--GUIDAP_INTERFACE.agc`](../../flight-software/Apollo-11/Luminary099/FINDCDUW--GUIDAP_INTERFACE.agc) — 制导与 DAP 接口  
-- [`ALARM_AND_ABORT.agc`](../../flight-software/Apollo-11/Luminary099/ALARM_AND_ABORT.agc) — 程序报警与 abort 基础设施  
-- [`LANDING_ANALOG_DISPLAYS.agc`](../../flight-software/Apollo-11/Luminary099/LANDING_ANALOG_DISPLAYS.agc) — 着陆模拟显示
+- [`SERVICER.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/SERVICER.agc) — 导航/服务循环，着陆过程中持续更新状态  
+- [`BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc) — 主点火编排（`THE_LUNAR_LANDING` 里会为 Burn Baby Burn 准备 `WHICH` 等）  
+- [`FINDCDUW--GUIDAP_INTERFACE.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/FINDCDUW--GUIDAP_INTERFACE.agc) — 制导与 DAP 接口  
+- [`ALARM_AND_ABORT.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/ALARM_AND_ABORT.agc) — 程序报警与 abort 基础设施  
+- [`LANDING_ANALOG_DISPLAYS.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/LANDING_ANALOG_DISPLAYS.agc) — 着陆模拟显示
 
 ---
 
@@ -44,6 +44,6 @@
 ## 阅读提示
 
 - 先读标签与注释中的 **P63 / 阶段名**，再跟 `BANKCALL` / `TC` / interpretive `STCALL` 调用，避免一上来沉浸在矩阵运算里。
-- 相位与可重启性：着陆是长任务，常与 `PHASCHNG`、`RESTART_TABLES` 交织；若看到 phase 相关调用，可回到 [`PHASE_TABLE_MAINTENANCE.agc`](../../flight-software/Apollo-11/Luminary099/PHASE_TABLE_MAINTENANCE.agc) 与 [`../walkthroughs/executive-zh.md`](executive-zh.md)。
+- 相位与可重启性：着陆是长任务，常与 `PHASCHNG`、`RESTART_TABLES` 交织；若看到 phase 相关调用，可回到 [`PHASE_TABLE_MAINTENANCE.agc`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/PHASE_TABLE_MAINTENANCE.agc) 与 [`../walkthroughs/executive-zh.md`](executive-zh.md)。
 - 不臆造行号；印刷页码以各文件头 `Pages:` 注释为准。
 - 仿真操作仍以 [`../howto-zh.md`](../howto-zh.md) 为准，本页只做源码导航。

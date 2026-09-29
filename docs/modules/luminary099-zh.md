@@ -2,8 +2,8 @@
 
 登月舱（LM）阿波罗 11 绳存储器：**Luminary 1A / LMY99**。路径均相对本仓库根目录；文件名已在 `flight-software/Apollo-11/Luminary099/` 下核实存在。
 
-目录索引（上游页码 ↔ 文件）：[`flight-software/Apollo-11/Luminary099/README.md`](../../flight-software/Apollo-11/Luminary099/README.md)  
-GitHub：https://github.com/huming0618/apollo11-agc-study/tree/main/flight-software/Apollo-11/Luminary099
+目录索引（上游页码 ↔ 文件）：[`flight-software/Apollo-11/Luminary099/README.md`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/README.md)  
+GitHub：https://github.com/chrislgarry/Apollo-11/tree/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099
 
 导读入口：[`../reading-map-zh.md`](../reading-map-zh.md) · [`../walkthroughs/executive-zh.md`](../walkthroughs/executive-zh.md) · [`../walkthroughs/landing-zh.md`](../walkthroughs/landing-zh.md) · [`../walkthroughs/dsky-pinball-zh.md`](../walkthroughs/dsky-pinball-zh.md)
 
@@ -167,4 +167,4 @@ GitHub：https://github.com/huming0618/apollo11-agc-study/tree/main/flight-softw
 
 - 完整文件列表以目录 `ls` 与上游 `README.md` 为准；上表按学习优先级归类，**不是**汇编顺序的唯一权威。
 - 未改动任何 submodule 内 `.agc`；本页仅为中文索引。
-- GitHub 单文件 URL 形式：`https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Luminary099/<文件名>`
+- GitHub 单文件 URL 形式：`https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Luminary099/<文件名>`

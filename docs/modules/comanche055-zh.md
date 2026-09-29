@@ -2,8 +2,8 @@
 
 指令舱（CM）阿波罗 11 绳存储器：**Colossus 2A / Comanche 055**。路径均相对本仓库根目录；文件名已在 `flight-software/Apollo-11/Comanche055/` 下核实存在。
 
-目录索引（上游分区 COMERASE / COMAID / …）：[`flight-software/Apollo-11/Comanche055/README.md`](../../flight-software/Apollo-11/Comanche055/README.md)  
-GitHub：https://github.com/huming0618/apollo11-agc-study/tree/main/flight-software/Apollo-11/Comanche055
+目录索引（上游分区 COMERASE / COMAID / …）：[`flight-software/Apollo-11/Comanche055/README.md`](https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Comanche055/README.md)  
+GitHub：https://github.com/chrislgarry/Apollo-11/tree/911e5c0283c629c50cb97666f34065e8c07d71a5/Comanche055
 
 导读入口：[`../reading-map-zh.md`](../reading-map-zh.md) · [`../walkthroughs/executive-zh.md`](../walkthroughs/executive-zh.md) · [`../walkthroughs/dsky-pinball-zh.md`](../walkthroughs/dsky-pinball-zh.md)
 
@@ -166,4 +166,4 @@ GitHub：https://github.com/huming0618/apollo11-agc-study/tree/main/flight-softw
 
 - 完整列表以 `Comanche055/` 目录与上游 `README.md` 分区表为准。
 - 未改动任何 submodule 内 `.agc`；本页仅为中文索引。
-- GitHub 单文件：`https://github.com/huming0618/apollo11-agc-study/blob/main/flight-software/Apollo-11/Comanche055/<文件名>`
+- GitHub 单文件：`https://github.com/chrislgarry/Apollo-11/blob/911e5c0283c629c50cb97666f34065e8c07d71a5/Comanche055/<文件名>`
