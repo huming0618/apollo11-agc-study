@@ -28,6 +28,7 @@
   - 资料清单（中文）：[`docs/sources-zh.md`](docs/sources-zh.md)
   - 运行指南（中文）：[`docs/howto-zh.md`](docs/howto-zh.md)
   - 运行指南（英文）：[`docs/howto-en.md`](docs/howto-en.md)
+  - 月球地形用法与下载：[`docs/lunar-terrain-zh.md`](docs/lunar-terrain-zh.md)
 
 ## 中文注释与导读入口
 
@@ -43,6 +44,7 @@
 | [`docs/walkthroughs/dsky-pinball-zh.md`](docs/walkthroughs/dsky-pinball-zh.md) | DSKY / Pinball 入口 |
 | [`docs/sources-zh.md`](docs/sources-zh.md) | 资料与版本清单 |
 | [`docs/howto-zh.md`](docs/howto-zh.md) | 运行指南（中文） |
+| [`docs/lunar-terrain-zh.md`](docs/lunar-terrain-zh.md) | 月球地形数据：用法与下载入口 |
 
 建议从 [`docs/reading-map-zh.md`](docs/reading-map-zh.md) 开始。
 
